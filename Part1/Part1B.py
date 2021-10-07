@@ -29,4 +29,4 @@ def convert_to_list(string):
 
 
 if __name__ == '__main__':
-    print(doesnt_have_alphanumeric("12431231231@#$@#$@#$"))
+    print(doesnt_have_alphanumeric("123james456Martur!!@#@$"))

@@ -58,4 +58,5 @@ for row_1 in table_list_1:
             matching_rows.append(row_1)
             matching_rows.append(row_2)
 
-print(matching_rows)
+for matches in matching_rows:
+    print(matches)
