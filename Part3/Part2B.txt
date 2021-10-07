@@ -1,0 +1,28 @@
+
+
+Problem : Visit https://course.myimprov.com/logon.aspx This is a login page. Write Test Cases for this page.
+
+=======================
+
+Positive
+1. Verify able to login with valid email address and password
+2. Verify able to login using One Touch Login options > Google
+3. Verify able to login using One Touch Login options > Facebook
+4. Verify able to login using One Touch Login options > Amazon
+5. Verify instructions modal will appear when clicking `Trouble loggin in?`
+6. Verify clicking `Not registered yet?` will get us redirected to https://www.myimprov.com/
+7. Verify clicking `Forgot your password?` will invoke appearance of modal for inputting email address
+8. Verify clicking `LIVE CHAT` will invoke appearance of a new browser window asking for chat details
+9. Verify changing local language when Spanish language was chosen
+10. Verify changing local language when Chinese language was chosen
+11. Verify changing local language when Russian language was chosen
+12. Verify local language is English by default
+
+Negative
+1. Verify unable to login with malformed email adddress
+2. Verify unable to login with incorrect password
+3. Verify unable to login with incorrect email address
+4. Verify `Required` prompt below the email address text box appears when email address is not supplied
+5. Verify `Required` prompt below the password text box appears when password is not supplied
+6. Verify unable to login when account used for One Touch Login option is not found in the system
+
